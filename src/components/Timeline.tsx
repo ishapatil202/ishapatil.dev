@@ -16,51 +16,32 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="February 2025 – Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
-            <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
-            </p>
+            <h3 className="vertical-timeline-element-title">Research Assistant</h3>
+            <h4 className="vertical-timeline-element-subtitle">California State University, Los Angeles</h4>
+            <ul>
+              <li>Conducting data analysis on student performance for Project #SPACE (Simulation-Based Pedagogical Approach for STEM Education), funded by the NSF.</li>
+              <li>Mentoring undergraduate students and contributing to simulation-based learning research.</li>
+              <li>Exploring AI and data-driven methodologies to enhance STEM education outcomes.</li>
+            </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date=" July 2023 – January 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
+            <h4 className="vertical-timeline-element-subtitle"> Dimensionless Technologies Private Limited (Remote)</h4>
+            <ul>
+              <li>Analyzed image-extracted data and optimized processing accuracy.</li>
+              <li>Identified challenges in image capturing and implemented solutions to improve data quality.</li>
+              <li>Contributed to enhancing image-processing algorithms through collaboration with the research team.</li>
+            </ul>
+
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

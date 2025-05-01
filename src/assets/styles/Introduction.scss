@@ -1,0 +1,44 @@
+.introduction-page {
+  padding: 5% 10%; // Matches the skills-container
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; // Aligns left like Expertise
+  justify-content: center;
+  width: 100%;
+}
+
+.introduction-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+  text-align: left; // Ensure left alignment
+}
+
+.introduction-page p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: white;
+  text-align: left; // Align text left
+  margin-bottom: 30px;
+}
+
+/* Light Mode adjustments for Introduction */
+.light-mode .introduction-page h1,
+.light-mode .introduction-page p {
+  color: black;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .introduction-page {
+    padding: 5%;
+  }
+
+  .introduction-page h1 {
+    font-size: 2rem;
+  }
+
+  .introduction-page p {
+    font-size: 1rem;
+  }
+}

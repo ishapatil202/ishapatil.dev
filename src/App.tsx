@@ -10,10 +10,10 @@ import {
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
-
+import Introduction from './components/Introduction';
 function App() {
     const [mode, setMode] = useState<string>('dark');
-
+    
     const handleModeChange = () => {
         if (mode === 'dark') {
             setMode('light');
@@ -28,13 +28,25 @@ function App() {
 
     return (
     <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
+        
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
-            <Main/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-            <Contact/>
+                <Main />
+                <div id="introduction">
+                    <Introduction />
+                </div>
+                <div id="expertise">
+                    <Expertise />
+                </div>
+                <div id="timeline">
+                    <Timeline />
+                </div>
+                <div id="project">
+                    <Project />
+                </div>
+                <div id="contact">
+                    <Contact />
+                </div>
         </FadeIn>
         <Footer />
     </div>

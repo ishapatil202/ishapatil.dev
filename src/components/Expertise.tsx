@@ -9,14 +9,17 @@ const labelsFirst = [
     "React",
     "TypeScript",
     "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
+    "HTML",
+    "CSS",
     "Python",
     "SQL",
     "PostgreSQL",
-    "Postman"
+    "Postman",
+    "Svelte",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "REST APIs",
 ];
 
 const labelsSecond = [
@@ -26,19 +29,17 @@ const labelsSecond = [
     "AWS",
     "Azure",
     "Linux",
-    "Snowflake",
     "Pandas",
-    "Selenium",
 ];
 
 const labelsThird = [
     "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Python",
+    "Scikit-Learn",
+    "TensorFlow",
+    "PyTorch",
+    "Pandas",
+    "NumPy",
 ];
 
 function Expertise() {
@@ -50,7 +51,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I have experience designing and developing scalable web applications, integrating frontend and backend services, and managing databases. My expertise includes React, Svelte, and Node.js, and I adhere to industry best practices in software architecture, development, and deployment.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +62,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Cloud & DevOps</h3>
+                    <p>I have experience in cloud computing, containerization, and DevOps automation. I have worked with AWS, GCP, and Azure, setting up CI/CD pipelines, managing containerized applications using Docker and Kubernetes, and deploying scalable architectures.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +74,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>AI/ML & Data Science</h3>
+                    <p>I specialize in Machine Learning, Deep Learning, and AI-driven applications. I have worked on SVM classification, recommendation systems, embeddings, and clustering, optimizing models for performance.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
